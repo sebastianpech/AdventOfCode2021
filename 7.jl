@@ -1,5 +1,4 @@
 horizontal_positions = parse.(Int,split(read("7.input", String),","))
-horizontal_positions = parse.(Int,split(read("7-ex-a.input", String),","))
 
 #Part 1
 minimum(sum(abs.(horizontal_positions.-pos)) for pos in minimum(horizontal_positions):maximum(horizontal_positions))
