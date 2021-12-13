@@ -22,7 +22,7 @@ function print_data(data)
             if (x,y) in data
                 print("#")
             else
-                print(".")
+                print(" ")
             end
         end
         println()
