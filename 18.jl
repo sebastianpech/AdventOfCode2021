@@ -130,7 +130,7 @@ _magnitude(stru::Int) = stru
 _magnitude(stru::Vector{<:Any}) = 3*_magnitude(stru[1])+2*_magnitude(stru[2])
 
 # Part 1
-data = convert_input.(readlines("19.input"))
+data = convert_input.(readlines("18.input"))
 sn = reduce(add_sn,data)
 
 magnitude(sn)
